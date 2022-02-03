@@ -1,4 +1,4 @@
-# NFT Royalties 
+# NFT with Royalties and transferability switch
 
 ## Technology Stack & Tools
 
@@ -28,3 +28,7 @@ $ npm install
 - How to [deploy on ganache](https://github.com/decadanse/nft-with-royalties/blob/main/how%20to%20deploy%20on%20ganache)
 - How to [wrap NFT with deployed contract in network by it's address and ABI](https://github.com/decadanse/nft-with-royalties/blob/main/wrap%20NFT%20guide%20how%20to.js)
 
+## Deployments
+
+- Polygon testnet matic [0x33d300f4AA59A0c950230C707fC1DF26dc88f508](https://mumbai.polygonscan.com/address/0x33d300f4aa59a0c950230c707fc1df26dc88f508)
+- Polygon mainnet [0xa6ac554f7cd0d992300141b194440479bbc057d2](https://polygonscan.com/token/0xa6ac554f7cd0d992300141b194440479bbc057d2)
