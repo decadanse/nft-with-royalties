@@ -15,11 +15,6 @@
 - Install [Ganache](https://www.trufflesuite.com/ganache).
 - Install [Brownie](https://eth-brownie.readthedocs.io/en/stable/quickstart.html)
 
-## How it works
-
-- How to [deploy on ganache](https://github.com/decadanse/nft-with-royalties/blob/main/how%20to%20deploy%20on%20ganache)
-- How to [wrap NFT with deployed contract in network by it's address and ABI](https://github.com/decadanse/nft-with-royalties/blob/main/wrap%20NFT%20guide%20how%20to.js)
-
 ## Setting Up
 ### 1. Clone/Download the Repository
 
@@ -28,11 +23,8 @@
 $ cd nft-with-royalties
 $ npm install 
 ```
+## How to
 
-### 3. Start Ganache
+- How to [deploy on ganache](https://github.com/decadanse/nft-with-royalties/blob/main/how%20to%20deploy%20on%20ganache)
+- How to [wrap NFT with deployed contract in network by it's address and ABI](https://github.com/decadanse/nft-with-royalties/blob/main/wrap%20NFT%20guide%20how%20to.js)
 
-### 4. Migrate Smart Contracts
-`$ truffle migrate --reset`
-
-### 5. Run Tests
-`$ truffle test`
