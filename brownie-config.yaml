@@ -1,0 +1,37 @@
+# dependencies:
+#   # - <organization/repo>@<version>
+#   - OpenZeppelin/openzeppelin-contracts@4.4.2
+# compiler:
+#   solc:
+#     remappings:
+#       - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.2'
+
+dotenv: .env
+compiler:
+    solc:
+        remappings:
+          - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.2"
+
+    # cmd: ganache-cli
+    # cmd_settings:
+    #   accounts: 1
+    #   evm_version: istanbul
+    #   fork: https://rpc-mumbai.maticvigil.com
+    #   gas_limit: 200
+    #   mnemonic: mnemonic
+    #   network_id: 80001
+    #   confirmations: 2,
+    #   timeoutBlocks: 200,
+    # host: http://127.0.0.1
+    # id: polygon-test
+    # name: polygon-test
+
+    #       provider: () => new HDWalletProvider(mnemonic, `https://rpc-mumbai.maticvigil.com`),
+    #   network_id: 80001,
+    #   confirmations: 2,
+    #   timeoutBlocks: 200,
+    #   skipDryRun: true
+    # },
+
+# enable output of development artifacts to load with react
+dev_deployment_artifacts: true
