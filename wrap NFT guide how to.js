@@ -83,8 +83,8 @@ Part 2. Brownie.
 			- 4. give it a name ("ABI_of_Wrapper.json") with .json
 			*/
 
-		with open("./ABI_of_Wrapper.json") as f:
-		   info_json = json.loadf)
+		with open("./NIFTSY_main.json") as f:
+		   info_json = json.load(f)
 		...
 		abi = info_json
 		wrapper = Contract.from_abi("Wra", address, abi)
